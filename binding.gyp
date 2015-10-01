@@ -65,7 +65,7 @@
         ['OS=="linux"', {
           'cflags': [
           #  '<!(pkg-config libzmq --cflags 2>/dev/null || echo "")',
-          -I/app/vendor/include
+          '-I/app/vendor/include'
           ],
           'libraries': [
             '<!(pkg-config libzmq --libs 2>/dev/null || echo "")',
